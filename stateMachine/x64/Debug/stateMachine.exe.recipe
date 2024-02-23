@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\80520\source\repos\stateMachine\x64\Debug\stateMachine.exe</FullPath>
+      <FullPath>D:\rtthread_hardware_i2c_driver\astateMachine\x64\Debug\stateMachine.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

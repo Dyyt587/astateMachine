@@ -7,21 +7,32 @@ int main()
 {
     std::cout << "Hello World!\n";
     aStateMachine* sm = new aStateMachine();
-    aState* s1 = new aState("s1", []() {std::cout << "s1 excution" << std::endl; },[](){std::cout << "s1 entry" << std::endl; }, []() {std::cout << "s1 exit" << std::endl; });
-    aState* s2 = new aState("s2", []() {std::cout << "s2 excution" << std::endl; },[](){std::cout << "s2 entry" << std::endl; }, []() {std::cout << "s2 exit" << std::endl; });
-    aState* s3 = new aState("s3", []() {std::cout << "s3 excution" << std::endl; },[](){std::cout << "s3 entry" << std::endl; }, []() {std::cout << "s3 exit" << std::endl; });
-    aState* s4 = new aState("s4", []() {std::cout << "s4 excution" << std::endl; },[](){std::cout << "s4 entry" << std::endl; }, []() {std::cout << "s4 exit" << std::endl; });
+    aState* s1 = new aState("s1", []() ->int {std::cout << "s1 excution" << std::endl; return aStateMachine::stateNone; },
+        []()->int {std::cout << "s1 entry" << std::endl; return aStateMachine::stateNone; },
+        []() ->int {std::cout << "s1 exit" << std::endl; return aStateMachine::stateNone; });
+    aState* s2 = new aState("s2", []() ->int {std::cout << "s2 excution" << std::endl; return aStateMachine::stateNone; },
+        []()->int {std::cout << "s2 entry" << std::endl; return aStateMachine::stateNone; },
+        []() ->int {std::cout << "s2 exit" << std::endl; return aStateMachine::stateNone; });
+    aState* s3 = new aState("s3", []() ->int {std::cout << "s3 excution" << std::endl; return aStateMachine::stateNone; },
+        []()->int {std::cout << "s3 entry" << std::endl; return aStateMachine::stateNone; },
+        []() ->int {std::cout << "s3 exit" << std::endl; return aStateMachine::stateNone; });
+    aState* s4 = new aState("s4", []() ->int {std::cout << "s4 excution" << std::endl; return aStateMachine::stateNone; },
+        []()->int {std::cout << "s4 entry" << std::endl; return aStateMachine::stateNone; },
+        []() ->int {std::cout << "s4 exit" << std::endl; return aStateMachine::stateNone; });
     sm->addState(s1);
     sm->addState(s2);
     sm->addState(s3);
     sm->addState(s4);
-    sm->addTransition(s1, s2, [](aStateMachine* sm) {std::cout << sm->current->name<< std::endl; return true; });
+    sm->addTransition(s1, s2, [](aStateMachine* sm) {std::cout << sm->current->getName()<< " condition s1 -> s2" << std::endl; return false; });
+    sm->addTransition(s1, s3, [](aStateMachine* sm) {std::cout << sm->current->getName() << " condition s1 -> s3" << std::endl; return true; });
     sm->addTransition(s2, s3, [](aStateMachine* sm) {return true; });
-    // sm->addTransition(s3, s4, [=](aStateMachine* sm) {return true; });
-    // sm->addTransition(s4, 0,  [=](aStateMachine* sm) {return true; });
+    sm->addTransition(s3, s4, [](aStateMachine* sm) {return true; });
+    sm->addTransition(s4, 0,  [](aStateMachine* sm) {return true; });
     sm->showStates();
 
     sm->start(s1);
+
+    //update 会更新状态机状态，会执行excution 然后判断condtion
     sm->update();
     sm->update();
     sm->update();

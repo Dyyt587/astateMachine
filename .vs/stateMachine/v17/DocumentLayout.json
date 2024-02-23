@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\rtthread_hardware_i2c_driver\\astateMachine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E086D158-0577-41BF-89C0-443A7119B612}|stateMachine\\stateMachine.vcxproj|D:\\rtthread_hardware_i2c_driver\\astateMachine\\stateMachine\\aStateMachine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E086D158-0577-41BF-89C0-443A7119B612}|stateMachine\\stateMachine.vcxproj|solutionrelative:stateMachine\\aStateMachine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E086D158-0577-41BF-89C0-443A7119B612}|stateMachine\\stateMachine.vcxproj|D:\\rtthread_hardware_i2c_driver\\astateMachine\\stateMachine\\aStateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E086D158-0577-41BF-89C0-443A7119B612}|stateMachine\\stateMachine.vcxproj|solutionrelative:stateMachine\\aStateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E086D158-0577-41BF-89C0-443A7119B612}|stateMachine\\stateMachine.vcxproj|D:\\rtthread_hardware_i2c_driver\\astateMachine\\stateMachine\\stateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E086D158-0577-41BF-89C0-443A7119B612}|stateMachine\\stateMachine.vcxproj|solutionrelative:stateMachine\\stateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 412,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stateMachine.cpp",
+              "DocumentMoniker": "D:\\rtthread_hardware_i2c_driver\\astateMachine\\stateMachine\\stateMachine.cpp",
+              "RelativeDocumentMoniker": "stateMachine\\stateMachine.cpp",
+              "ToolTip": "D:\\rtthread_hardware_i2c_driver\\astateMachine\\stateMachine\\stateMachine.cpp",
+              "RelativeToolTip": "stateMachine\\stateMachine.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-23T14:07:06.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "aStateMachine.cpp",
+              "DocumentMoniker": "D:\\rtthread_hardware_i2c_driver\\astateMachine\\stateMachine\\aStateMachine.cpp",
+              "RelativeDocumentMoniker": "stateMachine\\aStateMachine.cpp",
+              "ToolTip": "D:\\rtthread_hardware_i2c_driver\\astateMachine\\stateMachine\\aStateMachine.cpp",
+              "RelativeToolTip": "stateMachine\\aStateMachine.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-23T14:07:06.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "aStateMachine.h",
+              "DocumentMoniker": "D:\\rtthread_hardware_i2c_driver\\astateMachine\\stateMachine\\aStateMachine.h",
+              "RelativeDocumentMoniker": "stateMachine\\aStateMachine.h",
+              "ToolTip": "D:\\rtthread_hardware_i2c_driver\\astateMachine\\stateMachine\\aStateMachine.h",
+              "RelativeToolTip": "stateMachine\\aStateMachine.h",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAAHAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-23T14:07:06.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
